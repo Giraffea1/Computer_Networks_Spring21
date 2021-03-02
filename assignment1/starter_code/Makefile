@@ -9,4 +9,4 @@ proxy: proxy.c
 	$(CC) $(CFLAGS) -o proxy proxy_parse.o proxy.o
 
 clean:
-	rm -f proxy *.o
+	rm -f proxy *.o a.out proxy_parse.h.gch
